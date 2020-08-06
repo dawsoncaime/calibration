@@ -277,9 +277,9 @@ bool calib(string& File_Directory1, string FileType = ".txt", const Size board_s
 
 int main()
 {
-	int model = MODEL_4320;											// 模组设置
-	string File_Directory1 = "D:\\calibra\\4320\\20200629_4x5";		// 文件夹目录1
-	//string File_Directory1 = "D:\\calibra\\4310\\0702_4x5_50"; 
+	int model = MODEL_4310;											// 模组设置
+	//string File_Directory1 = "D:\\calibra\\4320\\20200629_4x5";		// 文件夹目录1
+	string File_Directory1 = "D:\\calibra\\4310\\0702_4x5_50"; 
 	string FileType = ".txt";										// 需要查找的文件类型
 	calib(File_Directory1, FileType, Size(5, 4), Size(50, 50), false, model);
 

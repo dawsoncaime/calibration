@@ -25,6 +25,6 @@ Type stringToNum(const string&);
 void getFilesName(string&, string&, vector<string>&, vector<string>&);
 void get_peak(vector<string>&, vector<string>&, vector<Mat>&, int);
 //±ê¶¨
-bool m_findchessbord(vector<Mat>&, const Size, const Size, vector<vector<Point2f>>&, Size&, int&);
-bool m_caibration(vector<vector<Point2f>>&, const Size, const Size, const Size, Mat&, Mat&, vector<Mat>&, vector<Mat>&, int&, int);
+bool m_findchessbord(vector<Mat>&, const Size, const Size, vector<vector<Point2f>>&, Size&);
+bool m_caibration(vector<vector<Point2f>>&, const Size, const Size, const Size, Mat&, Mat&, vector<Mat>&, vector<Mat>&, int);
 bool calib(string&, string, const Size, const Size, bool, int);
