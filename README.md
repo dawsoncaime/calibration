@@ -7,7 +7,6 @@ HOW TO USE IT
 open calib.sln  file in visual studio , setting the envirment of opencv(lots of course in net), change the file direct in the main function 
 
 
-**---------------------------------------------------------------**
 20200803_5x4mm是黑白棋盘格图像数据
 
 工程使用：
