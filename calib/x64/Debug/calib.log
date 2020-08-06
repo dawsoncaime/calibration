@@ -1,0 +1,24 @@
+﻿  calib.cpp
+D:\calibra\zz\calib\calib\calib.cpp(24,10): warning C4477: “printf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“std::string”
+D:\calibra\zz\calib\calib\calib.cpp(137,38): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\calibra\zz\calib\calib\calib.cpp(72,27): warning C4101: “myTmpData”: 未引用的局部变量
+D:\calibra\zz\calib\calib\calib.cpp(199,43): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\calibra\zz\calib\calib\calib.cpp(209,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+D:\calibra\zz\calib\calib\calib.cpp(210,21): warning C4244: “=”: 从“_Tp”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=int
+          ]
+          and
+          [
+              _Tp=float
+          ]
+  calib.vcxproj -> D:\calibra\zz\calib\x64\Debug\calib.exe
